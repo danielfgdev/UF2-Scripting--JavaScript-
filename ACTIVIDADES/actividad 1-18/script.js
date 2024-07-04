@@ -1,4 +1,4 @@
-// Los multiplos de 3 "Fizz,", los multiplos de 5 "Buzz", y los multiplos de 3 y de 5 "FizzBuzz"
+// Los multiplos de 3 "izz,", los multiplos de 5 "Buzz", y los multiplos de 3 y de 5 "FizzBuzz"
 
 
 for (let i = 1; i <= 100; i++) {
