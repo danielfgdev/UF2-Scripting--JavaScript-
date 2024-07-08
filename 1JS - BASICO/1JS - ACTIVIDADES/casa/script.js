@@ -129,7 +129,7 @@ if (captcha === "a2a2") {
     console.log("captcha incorrecto")
 }
 
-// ¿porque no para si meto la contraseña mal? ------------------------------- (poner otra vez contraseña = prompt?????)
+// ¿porque no para si meto la contraseña mal? --------------- (poner otra vez contraseña = prompt?????)
 
 // ¿alguna forma de no poner "contraseña" a mano en los if?? --------------- ${} ?????
 
