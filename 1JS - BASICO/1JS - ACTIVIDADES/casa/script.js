@@ -111,26 +111,25 @@
 // }
 // console.log(color);
 
-// ! Usar let y else if contraseña
+// ! Usar let y while, contraseña y captcha
 
-let contraseña = "casa23"
-let captcha = "a2a2"
-contraseña = prompt("cual es la contraseña")
-if (contraseña === "casa23") {
-    console.log("la contraseña es correcta");
-} else if (contraseña !== "casa23") {
-    console.log("contraseña incorrecta");
+let contraseñaCorrecta = "casa23";
+let captchaCorrecto = "a2a2";
+
+
+let contraseña = prompt("¿Cuál es la contraseña?");
+while (contraseña !== contraseñaCorrecta) {
+    contraseña = prompt("Contraseña incorrecta. Intentalo de nuevo:");
 }
-captcha = prompt("cual es el captcha?")
-if (captcha === "a2a2") {
-    console.log("captcha correcto")
-} else {
-    (captcha !== "a2a2");
-    console.log("captcha incorrecto")
+console.log("contraseña correcta")
+
+let captcha = prompt("¿Cual es el captcha?");
+while (captcha !== captchaCorrecto) {
+    captcha = prompt("captcha incorrecto. Intentalo de nuevo:")
 }
+console.log("captcha correcto")
+alert("Que bien ehhh!?")
 
-// ¿porque no para si meto la contraseña mal? --------------- (poner otra vez contraseña = prompt?????)
 
-// ¿alguna forma de no poner "contraseña" a mano en los if?? --------------- ${} ?????
 
 
