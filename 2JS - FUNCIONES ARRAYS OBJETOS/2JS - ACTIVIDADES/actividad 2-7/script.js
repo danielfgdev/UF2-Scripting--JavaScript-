@@ -5,9 +5,9 @@ function posNeg(numero) {
     if (numero > 0) {
         console.log("positivo")
         posNeg
-    } if (numero < 1) {
+    } else {
         console.log("negativo")
     }
 
 }
-posNeg(-2)
+posNeg()
