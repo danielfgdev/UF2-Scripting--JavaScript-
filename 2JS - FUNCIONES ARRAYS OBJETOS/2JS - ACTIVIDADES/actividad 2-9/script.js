@@ -1,6 +1,5 @@
-// !Calcule la raiz cuadrada que recibe numero como parametro, 
-// ! no llamar a la funcion si el numero es negativo, en cuyo caso da error.
-
+// ! Función que calcule la raíz cuadrada de un numero que recibe como parámetro, teniendo la precaución de no llamar a la función si el numero es negativo,
+// ! en cuyo caso se muestra un mensaje de error.
 function raiz(a) {
 
 }

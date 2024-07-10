@@ -1,4 +1,4 @@
-// ! Funcion que pide el nombre y el genero, en base al genero saludo SR/Sra, indefinido.
+// ! Saludar chico o chica
 
 console.log("saludar");
 function saludar(genero, nombre = "desconocido") {

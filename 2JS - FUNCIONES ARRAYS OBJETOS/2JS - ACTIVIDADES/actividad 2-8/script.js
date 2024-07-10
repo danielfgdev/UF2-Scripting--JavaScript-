@@ -1,12 +1,17 @@
-// ! Ejercicio anterior pero sin mostrarlo en pantalla, tan solo retornando el valor
+// ! Realizar el ejercicio anterior pero la función no se encargará de mostrarlo por pantalla, 
+// ! sino que tan sólo ha de **retornar** el valor. 
 
 function posNeg(numero) {
+    let resultado
     if (numero > 0) {
-        return "positivo";
-        posNeg
+        resultado = 'es positivo';
     } else {
-        return "negativo";
+        resultado = 'es negativo';
     }
-    return (posNeg)
+    return resultado
 }
-console.log(posNeg(2))
+
+
+
+console.log(posNeg(-1))
+console.log(posNeg(16))

@@ -1,5 +1,4 @@
-// ! Recibe un lado y calcula el perimetro del cuadrado
-
+// ! Función que recibe un lado y calcula el perímetro del cuadrado
 
 function perimetro(lado) {
 

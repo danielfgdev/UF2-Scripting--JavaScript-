@@ -1,4 +1,5 @@
-// ! Funcion que recibe una temperatura y dice si esta dxentro de 5 rangos
+// ! Función que recibe una temperatura y dice
+// ! si está dentro de 5 rangos: muy frio, frio, templado, calor, mucho calor
 
 function temperatura(a) {
     if (a < 0) {

@@ -1,5 +1,5 @@
-// ! Funcion que reciba un numero y muestre si es positivo o negativo
-
+// ! Implementar una función que reciba como parámetro un número y muestre por pantalla un valor 
+// ! lógico indicando si es positivo o negativo
 
 function posNeg(numero) {
     if (numero > 0) {
@@ -10,4 +10,5 @@ function posNeg(numero) {
     }
 
 }
-posNeg()
+posNeg(4)
+posNeg(-4)
