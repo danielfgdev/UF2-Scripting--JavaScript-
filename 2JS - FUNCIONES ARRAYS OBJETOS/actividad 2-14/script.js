@@ -3,14 +3,14 @@
 
 function parametros(min, max, parImpar) {
 
-    for (let i = min; i <= max; i++) {
+    for (let i = min; i <= max; i = i + 1) {
 
-        if (parImpar === 'p') {
+        if (parImpar === 'par') {
             if (i % 2 === 0) {
                 console.log(i);
             }
 
-        } else if (parImpar === 'i') {
+        } else if (parImpar === 'impar') {
             if (i % 2 !== 0) {
                 console.log(i);
             }
@@ -18,5 +18,5 @@ function parametros(min, max, parImpar) {
     }
 }
 
-parametros(2, 20, 'p')
-parametros(2, 20, 'i')
+parametros(2, 20, 'par')
+parametros(2, 20, 'impar')

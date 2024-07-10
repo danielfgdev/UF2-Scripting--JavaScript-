@@ -113,8 +113,8 @@
 
 // ! Usar let y while, contraseña y captcha
 
-let contraseñaCorrecta = "casa23";
-let captchaCorrecto = "a2a2";
+const contraseñaCorrecta = "casa23";
+const captchaCorrecto = "a2a2";
 
 
 let contraseña = prompt("¿Cuál es la contraseña?");
