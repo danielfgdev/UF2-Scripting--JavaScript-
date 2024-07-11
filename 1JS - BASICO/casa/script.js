@@ -107,29 +107,47 @@
 //     console.log("el color correcto es el azul")
 // } else {
 //     (color !== "azul", "rojo")
-//     console.log("ese color no es correto")
+//     console.log("ese color no es correcto")
 // }
 // console.log(color);
 
 // ! Usar let y while, contraseña y captcha
 
-const contraseñaCorrecta = "casa23";
-const captchaCorrecto = "a2a2";
+// const contraseñaCorrecta = "casa23";
+// const captchaCorrecto = "a2a2";
 
 
-let contraseña = prompt("¿Cuál es la contraseña?");
-while (contraseña !== contraseñaCorrecta) {
-    contraseña = prompt("Contraseña incorrecta. Intentalo de nuevo:");
-}
-console.log("contraseña correcta")
+// let contraseña = prompt("¿Cuál es la contraseña?");
+// while (contraseña !== contraseñaCorrecta) {
+//     contraseña = prompt("Contraseña incorrecta. Intentalo de nuevo:");
+// }
+// console.log("contraseña correcta")
 
-let captcha = prompt("¿Cual es el captcha?");
-while (captcha !== captchaCorrecto) {
-    captcha = prompt("captcha incorrecto. Intentalo de nuevo:")
-}
-console.log("captcha correcto")
-alert("Que bien ehhh!?")
+// let captcha = prompt("¿Cual es el captcha?");
+// while (captcha !== captchaCorrecto) {
+//     captcha = prompt("captcha incorrecto. Intentalo de nuevo:")
+// }
+// console.log("captcha correcto")
+// alert("Que bien ehhh!?")
 
+// ! Peticion que muestra por consola la suma o la resta de dos numeros en base a lo que se le especifique por parametro
 
+// let num1 = parseInt(prompt("¿Qué número quieres usar primero?"));
+// let num2 = parseInt(prompt("¿Qué número quieres usar después?"));
 
+// function masMenos(operacion) {
+
+//     if (operacion === "suma") {
+//         num1 + num2
+//         console.log(num1 + num2)
+//     } else if (operacion === "resta") {
+//         num1 - num2
+//         console.log(num1 - num2)
+//     } else {
+//         console.log("escribe suma o resta")
+//     }
+
+// }
+// masMenos("suma")
+// masMenos("resta")
 
