@@ -3,23 +3,23 @@
 console.log("saludar");
 function saludar(genero, nombre = "desconocido") {
 
-    genero = ""
+    let distintivo = ""
 
 
-    if (genero == "masculino") {
-        genero = "Sr"
+    if (genero === "masculino") {
+        distintivo = "Sr"
         console.log(genero)
 
-    } else if (genero == "femenino") {
-        genero = "Sra"
+    } else if (genero === "femenino") {
+        distintivo = "Sra"
         console.log(genero);
 
-    } if (genero == "indefinido") {
-        genero = "Random"
+    } if (genero === "indefinido") {
+        distintivo = "Random"
         console.log(genero);
     }
 
-    console.log(`hola  ${genero}  ${nombre}`)
+    console.log(`hola  ${distintivo}  ${nombre}`)
 }
 saludar("masculino", "dani");
 saludar("femenino", "pepa");
